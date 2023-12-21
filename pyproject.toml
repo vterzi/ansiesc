@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ansiesc"
+dynamic = ["version"]
+description = "Python package for text formatting using ANSI escape sequences"
+requires-python = ">= 3.8"
+authors = [
+    {name = "Vladimir Terzi"},
+]
+maintainers = [
+    {name = "Vladimir Terzi"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["text", "formatting", "ANSI", "escape", "sequences", "terminal",
+    "console", "color", "style"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Repository = "https://github.com/vterzi/ansiesc.git"
