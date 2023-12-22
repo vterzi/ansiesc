@@ -1,2 +1,2 @@
 # ansiesc
-Python package for text formatting using ANSI escape sequences
+A Python package for text formatting using ANSI escape sequences
